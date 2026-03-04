@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/mountainman">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9E000000">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Discover\nmindful hiking"
+                android:textSize="40sp"
+                android:textStyle="bold"
+
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                />
+
+            <Button
+                android:id="@+id/trynowbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try Now"
+                android:backgroundTint="#4AB8F9"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
