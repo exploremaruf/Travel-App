@@ -30,7 +30,7 @@
         android:padding="15dp"
         android:weightSum="4"
         android:elevation="500dp"
-        android:background="#ffffff">
+        android:background="@drawable/notification_bar_bg">
 
         <ImageView
             android:id="@+id/home"
